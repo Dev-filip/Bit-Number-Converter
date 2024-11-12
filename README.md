@@ -1,4 +1,8 @@
-# Bit-Number-Converter
+# Bit Calculator
+
+You can calculate subnet.
+
+Numbers to bits | Bits tu numbers
 
 This was created using html,css,js.
 
