@@ -1,9 +1,26 @@
-# Bit Calculator
+# Text/Numbers to binary calculator
 
-You can calculate subnet.
+👋 Hello, you now looking at binary calculator.
 
-Numbers to bits | Bits tu numbers
+What things can it do?
 
-This was created using html,css,js.
+1) You can choose what to convert (From/To) 🤩
+  Binary
+  Deciaml
+  Octal
+  Hexadecimal
 
-I created this because i wanted to learn new things.
+(In the next update there will be text option)
+
+2) You can swap and reset number by buttons 🥳
+
+3) You can calculate subnet, isnt i cool? 😎
+
+
+
+________                          _____.__.__  .__        
+\______ \   _______  __         _/ ____\__|  | |__|_____  
+ |    |  \_/ __ \  \/ /  ______ \   __\|  |  | |  \____ \ 
+ |    `   \  ___/\   /  /_____/  |  |  |  |  |_|  |  |_> >
+/_______  /\___  >\_/            |__|  |__|____/__|   __/ 
+                                                  |__|    
