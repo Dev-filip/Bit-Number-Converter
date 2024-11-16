@@ -1,6 +1,6 @@
 # Text/Numbers to binary calculator
 
-👋 Hello, you now looking at binary calculator.
+👋 Hello, you are now looking at binary calculator.
 
 What things can it do?
 
@@ -14,6 +14,6 @@ What things can it do?
 
 2) You can swap and reset number by buttons 🥳
 
-3) You can calculate subnet, isnt i cool? 😎
+3) You can calculate ip mask, isnt i cool? 😎
 
 
