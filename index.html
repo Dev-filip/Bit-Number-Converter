@@ -8,25 +8,37 @@
     <title>Bit Converter</title>
 </head>
 <body>
-    <h1>Bit Converter</h1>
-    <div>
-        <h2>From Bits to Number</h2>
-        <input type="text" id="bitInput" placeholder="Enter binary number">
-        <button onclick="bitToNumber()">Convert</button>
-        <input type="text" id="numberResult" placeholder="Result" readonly>
-    </div>
-    <div>
-        <h2>From Number to Bits</h2>
-        <input type="number" id="numberInput" placeholder="Enter number">
-        <button onclick="numberToBit()">Convert</button>
-        <input type="text" id="bitResult" placeholder="Result" readonly>
-    </div>
-    <div>
+    <h1>Text/Number to binary converter</h1>
+    <div class="converter-box">
+        <h2>Converter</h2>
+        <label for="fromBase">From</label>
+        <select id="fromBase">
+            <option value="2">Binary</option>
+            <option value="10">Decimal</option>
+            <option value="8">Octal</option>
+            <option value="16">Hexadecimal</option>
+        </select>
+        <input type="text" id="inputValue" placeholder="Enter value">
+        <label for="toBase">To</label>
+        <select id="toBase">
+            <option value="2">Binary</option>
+            <option value="10">Decimal</option>
+            <option value="8">Octal</option>
+            <option value="16">Hexadecimal</option>
+        </select>
+        <input type="text" id="resultValue" placeholder="Result" readonly>
+        <div class="button-container">
+            <button onclick="convert()">Convert</button>
+            <button onclick="swapBases()">Swap</button>
+            <button onclick="resetInputs()">Reset</button>
+        </div>
         <h2>IP Mask Calculator</h2>
         <input type="text" id="ipInput" placeholder="Enter IP address (e.g., 192.168.1.1)">
         <input type="number" id="subnetInput" placeholder="Enter subnet (0-32)">
-        <button onclick="calculateSubnetMask()">Calculate Mask</button>
         <input type="text" id="maskResult" placeholder="Subnet mask result" readonly>
+        <div class="button-container">
+            <button onclick="calculateSubnetMask()">Calculate Mask</button>
+        </div>
     </div>
 </body>
 </html>

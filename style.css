@@ -4,8 +4,44 @@ body {
     margin: 50px auto;
     text-align: center;
 }
-input, button {
+
+.converter-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #da06061a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+    padding: 40px;
+    font-size: 1em;
+    width: 80%;
+    border-radius: 10px;
+}
+
+select {
     margin: 10px;
     padding: 10px;
     font-size: 1em;
+    width: 50%;
+    border-radius: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
 }

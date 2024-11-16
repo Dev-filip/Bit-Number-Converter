@@ -30,3 +30,48 @@ function calculateSubnetMask() {
     const maskOctets = maskBits.match(/.{1,8}/g).map(octet => parseInt(octet, 2)).join('.');
     document.getElementById('maskResult').value = maskOctets;
 }
+
+function convert() {
+    const fromBase = document.getElementById('fromBase').value;
+    const toBase = document.getElementById('toBase').value;
+    const inputValue = document.getElementById('inputValue').value;
+
+    let number;
+    try {
+        number = parseInt(inputValue, fromBase);
+        if (isNaN(number)) {
+            throw new Error('Invalid input');
+        }
+    } catch (e) {
+        alert('Invalid input. Please enter a valid number for the selected base.');
+        return;
+    }
+
+    const resultValue = number.toString(toBase);
+    document.getElementById('resultValue').value = resultValue.toUpperCase();
+}
+
+function resetInputs() {
+    document.getElementById('fromBase').value = '2';
+    document.getElementById('toBase').value = '2';
+    document.getElementById('inputValue').value = '';
+    document.getElementById('resultValue').value = '';
+    document.getElementById('ipInput').value = '';
+    document.getElementById('subnetInput').value = '';
+    document.getElementById('maskResult').value = '';
+}
+
+function swapBases() {
+    const fromBase = document.getElementById('fromBase');
+    const toBase = document.getElementById('toBase');
+    const inputValue = document.getElementById('inputValue');
+    const resultValue = document.getElementById('resultValue');
+
+    const tempBase = fromBase.value;
+    fromBase.value = toBase.value;
+    toBase.value = tempBase;
+
+    const tempValue = inputValue.value;
+    inputValue.value = resultValue.value;
+    resultValue.value = tempValue;
+}
