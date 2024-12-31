@@ -1,19 +1,18 @@
-# Text/Numbers to binary calculator
+# Bit Converter 🎛️
 
 👋 Hello, you are now looking at binary calculator.
 
-What things can it do?
+Bit Converter is a versatile web tool designed for anyone who works with data conversions and subnet calculations. 🧮 It's perfect for IT professionals, students, and tech enthusiasts! 🚀
 
-1) You can choose what to convert (From/To) 🤩
-  Binary
-  Deciaml
-  Octal
-  Hexadecimal
+## Features ✨
 
-(In the next update there will be text option)
+- **Bit Conversion:** Quickly convert between different data sizes (bits, bytes, kilobytes, etc.). 📏
+- **Subnet Calculator:** Effortlessly calculate subnet masks. 🌐
+- **User-Friendly Interface:** Clean and intuitive design for easy and fast use. 😄
 
-2) You can swap and reset number by buttons 🥳
+## Technologies Used 🛠️
 
-3) You can calculate ip mask, isnt i cool? 😎
-
+- **HTML:** For structuring the tool. 🖼️
+- **CSS:** To style the interface and make it visually appealing. 🎨
+- **JavaScript:** Powering the logic for conversions and calculations. ⚡
 
